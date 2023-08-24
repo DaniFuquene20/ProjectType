@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="es-CO">
+<header style=" Background-color:#EAA27D; Width: 25%;
+Height: 10%; Text-align: center;margin: 0 auto;">Visualizacion de etiqueta option</header>
+
+<head>
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+</head>
+<main>
+    <section style=" Background-color: #D5A892; Width: 25%;
+    Height: 40%; float:left;margin: 0 auto;">
+    <p>Ejemplo con select</p>
+        <select style="color:black; Width: 25%;
+        Height: 25%">
+        <header>Option con select</header>
+            <option disabled>
+                Opcion 1
+            </option>
+            <option>
+                Opcion 2
+            </option>
+            <option selected>
+                Opcion 3
+            </option>
+        </select>
+    </section>
+    <html lang="es-US">
+    <section style=" Background-color: #D99675; Width: 25%;
+        Height: 40%; float:left;margin: 0 auto;">
+         <p>Ejemplo con optgroup</p>
+         <select>
+        <optgroup label="Grupo1" style="color:black">
+            <option>Opcion 1 </option>
+            <option label="Option 2">Opcion 2 prueba</option>
+            <option>Opcion 3 </option>
+        </select>
+        </optgroup>
+    </section>
+    </html>
+    <section style=" Background-color: #D17C51; Width: 25%;
+    Height: 40%; float:left; margin: 0 auto;">
+     <p>Ejemplo con datalist</p>
+        <p><label>Ingresa un nombre para tu mascota: <input type="text" name="nombremascota"
+                    list="listamascotas"></label></p>
+        <datalist id="listamascotas">
+            <label>O elige uno de la siguiente lista</label>
+            <select name="nombremascota">
+                <option value="BelaDato">Bela</option>
+                <option>Luna</option>
+                <option>Daisy</option>
+                <option>Brisa</option>
+            </select>
+        </datalist>
+
+    </section>
+</main>
+
+</html>
